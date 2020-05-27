@@ -29,6 +29,53 @@ main .baner .baner_item a span {
   .container {
     padding-top: 14px;
   }
+  main .slider .fullslide {
+    width: 100vw;
+    height: 50vh;
+    background-color: #F9F9F9;
+    position: relative;
+  }
+  main .slider .fullslide span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  main button {
+    border: none;
+    background-color: transparent;
+    color: #CFCFCF;
+  }
+  main .mark_slider {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  main .mark_slider .slick-prev {
+    position: absolute;
+    font-size: 30px;
+    left: 0;
+    top: 20px;
+    z-index: 1;
+  }
+  main .mark_slider .slick-next {
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    top: 20px;
+    z-index: 1;
+  }
+  main .mark_slider .slick-list {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  main .mark_slider .slick-list img {
+    width: 90%;
+  }
+  main .mark_slider .slick-list .helper1 {
+    padding-top: 20px;
+  }
   main .baner {
     display: -ms-grid;
     display: grid;
@@ -53,6 +100,150 @@ main .baner .baner_item a span {
     text-align: center;
     position: relative;
   }
+  main .blog {
+    padding-bottom: 36px;
+  }
+  main .blog .slick-prev {
+    position: absolute;
+    font-size: 30px;
+    left: 0;
+    top: 40%;
+    z-index: 1;
+  }
+  main .blog .slick-next {
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    top: 40%;
+    z-index: 1;
+  }
+  main .blog span {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #707070;
+    padding-bottom: 10px;
+  }
+  main .blog .social {
+    display: block;
+    text-align: center;
+    padding-bottom: 24px;
+  }
+  main .blog .social a {
+    color: #000000;
+    font-size: 30px;
+  }
+  main .blog .blog_slider {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  main .blog .blog_slider img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .benefits {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  main .benefits span {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-bottom: 25px;
+  }
+  main .benefits .benefits_items {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 13px;
+    padding-bottom: 35px;
+  }
+  main .benefits .benefits_items img {
+    width: 100%;
+  }
+  main .benefits p {
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+  }
+  footer .discount {
+    text-align: center;
+    background-color: #F5F5F5;
+    padding-bottom: 35px;
+  }
+  footer .discount h2 {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+  }
+  footer .discount p {
+    font-size: 16px;
+    text-align: center;
+  }
+  footer .discount button {
+    margin-top: 20px;
+    background-color: #231F20;
+    border: none;
+    width: 195px;
+    height: 44px;
+  }
+  footer .discount a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    color: #ffffff;
+  }
+  footer .discount a span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  footer .footer_elements {
+    background-color: #231F20;
+  }
+  footer .footer_elements ul {
+    padding-top: 20px;
+  }
+  footer .footer_elements ul li {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  footer .footer_elements ul li span {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+  }
+  footer .footer_elements ul li ul {
+    display: none;
+    margin-top: -10px;
+  }
+  footer .footer_elements ul li ul li {
+    font-size: 13px;
+    font-weight: normal;
+  }
+  footer .footer_elements ul li ul li a {
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+  }
+  footer .contact img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 13px;
+    padding-bottom: 15px;
+  }
 }
 
 @media (min-width: 980px) {
@@ -61,6 +252,59 @@ main .baner .baner_item a span {
   }
   .container {
     padding-top: 14px;
+  }
+  main .slider .fullslide {
+    width: 100vw;
+    height: 50vh;
+    background-color: #F9F9F9;
+    position: relative;
+  }
+  main .slider .fullslide span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  main .mark_slider {
+    position: relative;
+    margin-left: 130px;
+    margin-right: 130px;
+  }
+  main .mark_slider .helper1 {
+    padding-top: 20px;
+  }
+  main .mark_slider button {
+    border: none;
+    background-color: transparent;
+    color: #CFCFCF;
+  }
+  main .mark_slider .slick-prev {
+    position: absolute;
+    font-size: 50px;
+    left: 0;
+    top: 20px;
+    z-index: 1;
+  }
+  main .mark_slider .slick-next {
+    position: absolute;
+    font-size: 50px;
+    right: 0;
+    top: 20px;
+    z-index: 1;
+  }
+  main .mark_slider .slick-list {
+    margin-left: 80px;
+    margin-right: 25px;
+  }
+  main .mark_slider img:hover {
+    opacity: 0.5;
+  }
+  main .mark_slider img a {
+    display: block;
+    width: 100%;
+    height: 100%;
   }
   main .baner {
     display: -ms-grid;
@@ -83,6 +327,197 @@ main .baner .baner_item a span {
     width: 100%;
     height: 100%;
     position: relative;
+  }
+  main .blog button {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+  }
+  main .blog .slick-prev {
+    position: absolute;
+    font-size: 50px;
+    left: 10%;
+    top: 40%;
+    z-index: 1;
+  }
+  main .blog .slick-next {
+    position: absolute;
+    font-size: 50px;
+    right: 10%;
+    top: 40%;
+    z-index: 1;
+  }
+  main .blog span {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 4px;
+    padding-bottom: 42px;
+    color: #707070;
+  }
+  main .blog .social {
+    display: block;
+    text-align: center;
+    padding-bottom: 44px;
+  }
+  main .blog .social a {
+    color: #000000;
+    font-size: 30px;
+  }
+  main .blog .blog_slider {
+    padding-right: 128px;
+    padding-left: 128px;
+    padding-bottom: 66px;
+  }
+  main .blog .blog_slider img {
+    width: 95%;
+    margin: 0 auto;
+  }
+  main .benefits {
+    padding-left: 141px;
+    padding-right: 141px;
+    padding-bottom: 38px;
+  }
+  main .benefits span {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-bottom: 52px;
+  }
+  main .benefits .benefits_items {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    gap: 13px;
+    padding-bottom: 46px;
+  }
+  main .benefits .benefits_items img {
+    width: 100%;
+  }
+  main .benefits p {
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+  }
+  footer .discount {
+    text-align: center;
+    background-color: #F5F5F5;
+    padding-bottom: 42px;
+    padding-right: 18px;
+    padding-left: 10px;
+  }
+  footer .discount h2 {
+    padding-top: 47px;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+  footer .discount p {
+    padding-top: 5px;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  footer .discount button {
+    width: 195px;
+    height: 45px;
+    background-color: #231F20;
+    border: none;
+  }
+  footer .discount button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    color: #ffffff;
+  }
+  footer .discount button a span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  footer .footer_elements {
+    padding-left: 10%;
+    padding-right: 14%;
+    padding-bottom: 30px;
+    background-color: #231F20;
+  }
+  footer .footer_elements ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 150px;
+            column-gap: 150px;
+    margin-left: 16%;
+    text-align: center;
+    list-style: none;
+    padding-top: 38px;
+  }
+  footer .footer_elements ul span {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  footer .footer_elements ul li ul {
+    display: block;
+    padding-top: 16px;
+    margin-left: 0;
+  }
+  footer .footer_elements ul li ul li {
+    padding-bottom: 12px;
+  }
+  footer .footer_elements ul li ul li a {
+    font-size: 13px;
+    color: #ffffff;
+  }
+  footer .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 338px;
+    padding-right: 420px;
+    padding-top: 24px;
+  }
+  footer .contact .gap {
+    padding-right: 15px;
+  }
+  footer .contact i {
+    font-size: 13px;
+  }
+  footer .contact .facebook {
+    padding-left: 10px;
+  }
+  footer .contact .facebook a {
+    color: #3A559F;
+  }
+  footer .contact .facebook a .icon-facebook {
+    color: #ffffff;
+    background-color: #3A559F;
+    border-radius: 50%;
+  }
+  footer .contact .facebook a span {
+    font-size: 13px;
+  }
+  footer .contact img {
+    display: block;
+    padding-top: 0;
+    margin-right: 0;
+  }
+  footer img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */
