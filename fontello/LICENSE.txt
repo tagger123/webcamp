@@ -10,6 +10,7 @@ Font license info
    Homepage:  http://www.entypo.com
 
 
+<<<<<<< HEAD
 ## Font Awesome
 
    Copyright (C) 2016 by Dave Gandy
@@ -19,3 +20,5 @@ Font license info
    Homepage:  http://fortawesome.github.com/Font-Awesome/
 
 
+=======
+>>>>>>> 6b9f4b4c77a2c4574884a74134eb4ce100369f17

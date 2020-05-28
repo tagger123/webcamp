@@ -1,11 +1,20 @@
 @font-face {
   font-family: 'fontello';
+<<<<<<< HEAD
   src: url('../font/fontello.eot?57334748');
   src: url('../font/fontello.eot?57334748#iefix') format('embedded-opentype'),
        url('../font/fontello.woff2?57334748') format('woff2'),
        url('../font/fontello.woff?57334748') format('woff'),
        url('../font/fontello.ttf?57334748') format('truetype'),
        url('../font/fontello.svg?57334748#fontello') format('svg');
+=======
+  src: url('../font/fontello.eot?73605193');
+  src: url('../font/fontello.eot?73605193#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?73605193') format('woff2'),
+       url('../font/fontello.woff?73605193') format('woff'),
+       url('../font/fontello.ttf?73605193') format('truetype'),
+       url('../font/fontello.svg?73605193#fontello') format('svg');
+>>>>>>> 6b9f4b4c77a2c4574884a74134eb4ce100369f17
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +24,11 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
+<<<<<<< HEAD
     src: url('../font/fontello.svg?57334748#fontello') format('svg');
+=======
+    src: url('../font/fontello.svg?73605193#fontello') format('svg');
+>>>>>>> 6b9f4b4c77a2c4574884a74134eb4ce100369f17
   }
 }
 */
@@ -57,6 +70,7 @@
  
 .icon-left-arrow:before { content: '\e800'; } /* '' */
 .icon-right-arrow:before { content: '\e801'; } /* '' */
+<<<<<<< HEAD
 .icon-heart:before { content: '\e802'; } /* '' */
 .icon-basket:before { content: '\e803'; } /* '' */
 .icon-truck:before { content: '\e804'; } /* '' */
@@ -71,3 +85,10 @@
 .icon-search:before { content: '\e80d'; } /* '' */
 .icon-facebook:before { content: '\e80e'; } /* '' */
 .icon-down-open:before { content: '\e80f'; } /* '' */
+=======
+.icon-instagram:before { content: '\e802'; } /* '' */
+.icon-phone:before { content: '\e808'; } /* '' */
+.icon-mail:before { content: '\e809'; } /* '' */
+.icon-facebook2:before { content: '\e80d'; } /* '' */
+.icon-facebook:before { content: '\e80e'; } /* '' */
+>>>>>>> 6b9f4b4c77a2c4574884a74134eb4ce100369f17

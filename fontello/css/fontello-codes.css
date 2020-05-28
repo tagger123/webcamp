@@ -1,6 +1,7 @@
 
 .icon-left-arrow:before { content: '\e800'; } /* '' */
 .icon-right-arrow:before { content: '\e801'; } /* '' */
+<<<<<<< HEAD
 .icon-heart:before { content: '\e802'; } /* '' */
 .icon-basket:before { content: '\e803'; } /* '' */
 .icon-truck:before { content: '\e804'; } /* '' */
@@ -15,3 +16,10 @@
 .icon-search:before { content: '\e80d'; } /* '' */
 .icon-facebook:before { content: '\e80e'; } /* '' */
 .icon-down-open:before { content: '\e80f'; } /* '' */
+=======
+.icon-instagram:before { content: '\e802'; } /* '' */
+.icon-phone:before { content: '\e808'; } /* '' */
+.icon-mail:before { content: '\e809'; } /* '' */
+.icon-facebook2:before { content: '\e80d'; } /* '' */
+.icon-facebook:before { content: '\e80e'; } /* '' */
+>>>>>>> 6b9f4b4c77a2c4574884a74134eb4ce100369f17
