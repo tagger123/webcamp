@@ -9,88 +9,164 @@
 </head>
 <body>
     <div class="container">
-        <!--
-        <div class="discount desktop">
-            <div class="discount_info">-20% NA CAŁĄ KOLEKCJĘ ZIMOWĄ!</div>
-            <div class="discount_more desktop">
-                <div class="transport">
-                    i DARMOWA DOSTAWA
-                </div>
-                <div class="return">
-                    i 30 DNI NA ZWROT
-                </div>
-                <div class="rabat">
-                    i 10% NA PIERWSZE ZAKUPY
+        <header>
+            <div class="discount desktop">
+                <div class="discount_info"><span>-20% NA CAŁĄ KOLEKCJĘ ZIMOWĄ! ></span></div>
+                <div class="discount_more">
+                    <div></div>
+                    <div class="transport">
+                        <i class="icon-truck">DARMOWA DOWSTAWA</i>
+                    </div>
+                    <div class="return">
+                        <i class="icon-return">30 NA ZWROT</i>
+                    </div>
+                    <div class="rabat">
+                        <i class="icon-sale">10% NA PIERWSZE ZAKUPY</i>
+                    </div>
                 </div>
             </div>
-        </div>
-        <header>
+            <div class="navigation">
             <div class="logo">
                 <img src="./gfx/Armodo_pl_LOGO.png" alt="Logo">
             </div>
-            <div class="navigation">
-                <div class="search"></div>
-                <div class="header_more">
-                    <div class="phone desktop"></div>
-                    <div class="account desktop"></div>
-                    <div class="like"></div>
+            <div class="search desktop">
+                <form action="#">
+                    <input type="text">
+                    <i class="icon-search"></i>
+                </form>
+            </div>
+            <div class="header_more">  
+                    <div class="search mobile"><i class="icon-search"></i></div>
+                    <a href="#"><div class="phone desktop"><i class="icon-phone"></i></div></a>
+                    <a href="#"><div class="account desktop"><i class="icon-group-1"></i></div></a>
+                    <a href="#"><div class="like"><i class="icon-heart"></i></div></a>
                     <div class="basket">
                         <a href="#">
-                            <div class="basket"></div>
-                            <div class="cash desktop"></div>
-                            <div class="arrow desktop"></div>
+                            <div class="basket">
+                                <i class="icon-basket"></i>
+                                <div class="cash desktop">
+                                    <span>KOSZYK</span>
+                                    <p>225,00 zł</p>
+                                </div>
+                                <div class="arrow desktop"><i class="icon-right-arrow"></i></div>
+                            </div>
                         </a>
                     </div>
                     <div class="language desktop">
-                        <div class="pl_ico"></div>
-                        <div class="arrow_down"></div>
+                        <button onclick="toggleDisplay('language')">
+                            <div class="pl_ico">
+                                <img src="./gfx/pl-flag.png" alt="pl">
+                            </div>
+                            <div class="arrow_down">
+                                <i class="icon-down-open"></i>
+                            </div>
+                        <div id=language class="language-content">
+                            <a href="#"><img src="./gfx/pl-flag.png" alt="pl"></a>
+                            <a href="#"><img src="./gfx/pl-flag.png" alt="pl"></a>
+                            <a href="#"><img src="./gfx/pl-flag.png" alt="pl"></a>
+                        </div>
                     </div>
-                </div>
-                <button class="hamburger"></button>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#">DAMSKIE</a>
-                            <ul></ul>
-                        </li>
-                        <li>
-                            <a href="#">MĘSKIE</a>
-                            <ul></ul>
-                        </li>
-                        <li>
-                            <a href="#">TOREBKI</a>
-                            <ul></ul>
-                        </li>
-                        <li>
-                            <a href="#">AKCESORIA</a>
-                            <ul></ul>
-                        </li>
-                        <li>
-                            <a href="#">PREMIUM</a>
-                            <ul></ul>
-                        </li>
-                        <li>
-                            <a href="#">MARKI</a>
-                            <ul></ul>
-                        </li>
-                        <li>
-                            <a href="#">NOWOŚCI</a>
-                            <ul></ul>
-                        </li>
-                        <li>
-                            <a href="#">WYPRZEDAŻ</a>
-                            <ul></ul>
-                        </li>
-                    </ul>
-                </nav>
+                    <button class="hamburger mobile"><img src="./gfx/icon_hamburger.svg" alt="#"></button>
             </div>
+            </div> 
         </header>
-        <div class="discount_info">-20% NA CAŁĄ KOLEKCJĘ ZIMOWĄ!</div>
-        <div class="discount mobile">
-            <div class="discount_info"></div>
-            <div class="discount_more"></div>
-        </div>
-    -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">DAMSKIE</a>
+                    <div class="list">
+                        <ul>
+                            <li>
+                                <span>BOTKI I KOZAKI</span>
+                                <ul>
+                                    <li><a href="#">Botki</a></li>
+                                    <li><a href="#">Glany</a></li>
+                                    <li><a href="#">Kowbojki</a></li>
+                                    <li><a href="#">Kozaki</a></li>
+                                    <li><a href="#">Muszkieterki</a></li>
+                                    <li><a href="#">Oficerki</a></li>
+                                    <li><a href="#">Śniegowce</a></li>
+                                    <li><a href="#">Sztyblety</a></li>
+                                    <li><a href="#">Trekkingi i trapery</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>KLAPKI I SANDAŁY</span>
+                                <ul>
+                                    <li><a href="#">Klapki</a></li>
+                                    <li><a href="#">Sandały</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>PÓŁBUTY</span>
+                                <ul>
+                                    <li><a href="#">Baleriny</a></li>
+                                    <li><a href="#">Czółenka</a></li>
+                                    <li><a href="#">Espadryle</a></li>
+                                    <li><a href="#">Lordsy</a></li>
+                                    <li><a href="#">Mokasyny</a></li>
+                                    <li><a href="#">Na koturnie</a></li>
+                                    <li><a href="#">Na obcasie</a></li>
+                                    <li><a href="#">Oxfordy</a></li>
+                                    <li><a href="#">Płaskie</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>MARKI</span>
+                                <ul>
+                                    <li><a href="#">Nessi</a></li>
+                                    <li><a href="#">Tamaris</a></li>
+                                    <li><a href="#">gino rossi</a></li>
+                                    <li><a href="#">Carinii</a></li>
+                                    <li><a href="#">Karino</a></li>
+                                    <li><a href="#">Nessi</a></li>
+                                    <li><a href="#">Tamaris</a></li>
+                                    <li><a href="#">gino rossi</a></li>
+                                    <li><a href="#">Carinii</a></li>
+                                    <li><a href="#">Karino</a></li>                           
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="baner">
+                        <div class="baner_item"></div>
+                        <a href="#">NOWOŚCI</a>
+                        <a href="#">WYPRZEDAŻ</a>
+                        <a href="#">BESTSELLERY</a>
+                    </div>
+                    </li>
+
+                <li>
+                    <a href="#">MĘSKIE</a>
+                    <ul></ul>
+                </li>
+                <li>
+                    <a href="#">TOREBKI</a>
+                    <ul></ul>
+                </li>
+                <li>
+                    <a href="#">AKCESORIA</a>
+                    <ul></ul>
+                </li>
+                <li>
+                    <a href="#">PREMIUM</a>
+                    <ul></ul>
+                </li>
+                <li>
+                    <a href="#">MARKI</a>
+                    <ul></ul>
+                </li>
+                <li>
+                    <a href="#">NOWOŚCI</a>
+                    <ul></ul>
+                </li>
+                <li class="active">
+                    <a href="#">WYPRZEDAŻ</a>
+                    <ul></ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="discount_info mobile"><span>-20% NA CAŁĄ KOLEKCJĘ ZIMOWĄ!</span></div>
         <main>
             <section class="slider"></section>
             <section class="mark_slider"></section>
@@ -102,49 +178,70 @@
                 <div class="baner_item"><a href="#"><span>BANER REKLAMOWY</span></a></div>
                 <div class="baner_item"><a href="#"><span>BANER REKLAMOWY</span></a></div>
             </section>
-            <!--
-            <h1>WYBRANE DLA CIEBIE</h1>
+            
             <section class="for_you">
+                <span>WYBRANE DLA CIEBIE</span>
                 <div class="for_you_slider">
-                    <div class="for_you_item">
-                        <img src="#" alt="image">
-                        <div class="info">
-                            <h3>Name</h3>
-                            <h4>code</h4>
-                            <h2>289,00zł</h2>
+                    <a href="#">   
+                        <div class="for_you_item">
+                            <img src="./gfx/buty1.png" alt="image">
+                                <div class="info">
+                                <span>Botki KARINO</span>
+                                <span>3019/076-f czarny </span>
+                                <span>289,00zł</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="for_you_item">
-                        <img src="#" alt="image">
-                        <div class="info">
-                            <h3>Name</h3>
-                            <h4>code</h4>
-                            <h2>289,00zł</h2>
+                    </a>
+                    <a href="#">   
+                        <div class="for_you_item">
+                            <img src="./gfx/buty2.png" alt="image">
+                                <div class="info">
+                                <span>Botki KARINO</span>
+                                <span>3019/076-f czarny </span>
+                                <span class="promo">289,00zł<span>289,00zł</span></span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="for_you_item">
-                        <img src="#" alt="image">
-                        <div class="info">
-                            <h3>Name</h3>
-                            <h4>code</h4>
-                            <h2>289,00zł</h2>
+                    </a>
+                    <a href="#">   
+                        <div class="for_you_item">
+                            <img src="./gfx/buty3.png" alt="image">
+                                <div class="info">
+                                <span>Botki KARINO</span>
+                                <span>3019/076-f czarny </span>
+                                <span>289,00zł</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="for_you_item">
-                        <img src="#" alt="image">
-                        <div class="info">
-                            <h3>Name</h3>
-                            <h4>code</h4>
-                            <h2>289,00zł</h2>
+                    </a>
+                    <a href="#">   
+                        <div class="for_you_item">
+                            <img src="./gfx/buty4.png" alt="image">
+                                <div class="info">
+                                <span>Botki KARINO</span>
+                                <span>3019/076-f czarny </span>
+                                <span>289,00zł</span>
+                            </div>
                         </div>
-                    </div>
+                    </a>
+                    <a href="#">   
+                        <div class="for_you_item">
+                            <img src="./gfx/buty2.png" alt="image">
+                                <div class="info">
+                                <span>Botki KARINO</span>
+                                <span>3019/076-f czarny </span>
+                                <span>289,00zł</span>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </section>
+<<<<<<< Updated upstream
             <h1>@ARMODO - SPRAWDŹ CO NOWEGO</h1>
             <div class="social">
                 <a href="#">facebook</a>
                 <a href="#">instagram</a>
             </div>
+=======
+>>>>>>> Stashed changes
             <section class="blog">
                 <div class="blog_slider">
                     <div class="blog_slider_element">
