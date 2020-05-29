@@ -101,8 +101,6 @@ main{
                     height: 100%;
                     text-align: center;                    
                     position: relative;
-<<<<<<< Updated upstream
-=======
                 }
             }
         }
@@ -193,21 +191,16 @@ main{
                     margin: 0 auto;
                 }
             }
->>>>>>> Stashed changes
-
-                }
-            }
-        }
-    }    
-  }
+         }
+    }
+}
 //desktop
 @media (min-width: 980px) {
-<<<<<<< Updated upstream
         .mobile{
             display: none;
         }
         .container{
-            padding-top: 14px;
+            padding-top: 0;
         }
         main{
             .baner{
@@ -217,13 +210,15 @@ main{
                 padding-left: 141px;
                 padding-right: 141px;
                 .baner_item{
-=======
     .mobile{
         display: none;
     }
     .container{
         margin-top: 0;
     }
+}
+            }
+        }
     header{
         .discount{
             .discount_info{
@@ -332,8 +327,15 @@ main{
         }
     }
     nav{
-        padding: 0 20%;
+        .menu{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            background-color: #ffffff;
+            padding: 0 20%;
+
+        }
         ul{
+            margin: 0 20%;
             list-style: none;
             display: grid;
             grid-template-columns: repeat(8,1fr);
@@ -346,13 +348,23 @@ main{
             a{
                 color: #231F20;
             }
-            li{
-                position: relative;
-                .list{
-                    display: none;
-                }
-                .baner{
-                    display: none;
+        }
+        li{
+            position: relative;
+            .menu{
+                position: absolute;
+                left: -19vw;
+                width: 98vw;
+                z-index: 2;
+            }
+            ul{
+                margin: 0;
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                li{
+                    ul{
+                        display: block;
+                    }
                 }
             }
         }
@@ -574,7 +586,7 @@ main{
                     padding-bottom: 46px;
                     img{
                         width: 100%;
-                    }
+                    } 
                 }
                 p{
                     padding-left: 140px;
@@ -611,7 +623,6 @@ main{
                 border: none;
                 a{
                     display: block;
->>>>>>> Stashed changes
                     width: 100%;
                     height: 24vw;
                     background-color: #F9F9F9;
@@ -622,8 +633,9 @@ main{
                         width: 100%;
                         height: 100%;
                         position: relative;
+                    }
                 }
             }
-        }
-    }   
-  }
+        }  
+    }
+}
